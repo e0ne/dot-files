@@ -1,0 +1,18 @@
+#can use regex or global syntax
+
+#global matches
+syntax: glob
+
+*.pyc
+*.pydevproject
+*.project
+*.swp
+
+#switch to regexp syntax
+syntax: regexp
+
+.settings$
+static/dellclarity.core/
+
+.idea
+.venv
