@@ -35,4 +35,8 @@ autocmd FileType python setlocal ts=4 sts=4 sw=4
 filetype plugin on
 let g:pydiction_location = '/Users/e0ne/.vim/bundle/pydiction/complete-dict'
 
-
+"powerline
+set rtp+=/Users/e0ne/.vim/bundle/powerline/powerline/bindings/vim
+" Always show statusline
+set laststatus=2
+set t_Co=256
