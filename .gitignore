@@ -8,3 +8,4 @@ build/*
 .idea/
 *.sublime-project
 *.sublime-workspace
+.vagrant/
